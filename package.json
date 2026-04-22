@@ -1,18 +1,15 @@
 {
   "name": "minecraft-afk-bot",
-  "version": "2.2",
-  "description": "Robust AFK bot for Minecraft servers with infinite uptime.",
+  "version": "2.3",
+  "description": "AFK bot for 1.21.4 Java Edition",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node --check index.js"
+    "start": "node index.js"
   },
-  "author": "Lamgerr",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1",
-    "minecraft-data": "^3.103.0",
-    "mineflayer": "^4.34.0",
-    "mineflayer-pathfinder": "^2.1.1"
+    "express": "^4.18.2",
+    "minecraft-data": "latest",
+    "mineflayer": "^4.24.0",
+    "mineflayer-pathfinder": "^2.4.1"
   }
 }
