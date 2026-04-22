@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Techno_AFK",
+    "username": "Techno_AFK_Bot",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "ray0911221.aternos.me",
     "port": 30910,
-    "version": false
+    "version": "1.21.4"
   },
   "position": {
     "enabled": false,
@@ -30,9 +30,9 @@
       "repeat": true,
       "repeat-delay": 60000,
       "messages": [
-        "I'm a regular player",
-        "Checking my farm...",
-        "I like to play Minecraft!"
+        "AFK Mode On",
+        "Subscribe to Slobos!",
+        "1.21.4 Bot is Online"
       ]
     },
     "chat-log": true,
@@ -40,9 +40,7 @@
     "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 30000,
     "periodic-rejoin": {
-      "enabled": false,
-      "min-interval": 20,
-      "max-interval": 60
+      "enabled": false
     }
   },
   "movement": {
@@ -55,14 +53,10 @@
     "look-around": {
       "enabled": true,
       "interval": 10000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 15000
     }
   },
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": false,
     "beds": false,
     "chat": true,
@@ -76,8 +70,5 @@
       "disconnect": true,
       "chat": false
     }
-  },
-  "chat": {
-    "respond": true
   }
 }
